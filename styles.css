@@ -1,0 +1,119 @@
+/* GENERAL */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    color: #d0e3e3; /* כהה יותר מה-white המקורי */
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #c8d9d9; /* כהה יותר מה-#e7f0ef המקורי */
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #0f8a90; /* כהה מעט מה-#11999e המקורי */
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #829191 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #eaf6f6;
+}
+
+/* TOP SECTION */
+
+.top-container {
+    background-image: url("./images/sunset.jpeg"); /* לא נגעתי */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 170px;
+}
+
+/* MIDDLE SECTION */
+
+.middle-container {
+    margin: 100px 0;
+}
+
+#profile-img {
+    width: 320px;        /* מוגדל לפי בקשתך */
+    border-radius: 22px;
+    margin-bottom: 25px;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    width: 60%;
+    margin: 100px auto 0 auto;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    text-align: left;
+}
+
+.skill-gif {
+    width: 200px;
+    border-radius: 12px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* BUTTON */
+
+.btn {
+    background: #436962;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.btn:hover {
+    background: #57b3a6;
+}
+
+/* FOOTER */
+
+.bottom-container {
+    background-color: #436962;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #eaf6f6;
+}
